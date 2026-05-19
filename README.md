@@ -9,7 +9,7 @@ A hand-coded, minimalist portfolio website for trade businesses.
 
 ## Contact-first flow
 
-There is no checkout, no shopping cart, no Stripe widget on this site. **Every CTA is a `mailto:` to `hello@rapidsite.design`** with a pre-filled subject line and a body template that asks the prospect for their trade, business name, service area, phone, and services.
+There is no checkout, no shopping cart, no Stripe widget on this site. **Every CTA is a `mailto:` to `contact@rapidsite.design`** with a pre-filled subject line and a body template that asks the prospect for their trade, business name, service area, phone, and services.
 
 The four CTA entry points and the subject lines they fire are:
 
@@ -22,7 +22,7 @@ The four CTA entry points and the subject lines they fire are:
 | Pricing card 3 | `Managed Hosting enquiry ($300 + $20/mo)` |
 | Footer email | `New enquiry` |
 
-To change the destination email, search-and-replace `hello@rapidsite.design` across `index.html`. To edit a body template, decode the URL-encoded `body=` parameter on the relevant `<a href="mailto:...">`, edit the plain text, then re-encode (use `encodeURIComponent` in the browser console).
+To change the destination email, search-and-replace `contact@rapidsite.design` across `index.html`. To edit a body template, decode the URL-encoded `body=` parameter on the relevant `<a href="mailto:...">`, edit the plain text, then re-encode (use `encodeURIComponent` in the browser console).
 
 ## Sales sequence (off-site)
 
